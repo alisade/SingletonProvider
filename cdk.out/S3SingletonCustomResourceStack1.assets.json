@@ -1,0 +1,34 @@
+{
+  "version": "48.0.0",
+  "files": {
+    "4278de38340b6192d42f48930d3a6c4dc224402e82cddacab17314604dacfdb0": {
+      "displayName": "CustomResourceS3BucketS3BucketSingletonLambdaUUID1234/Code",
+      "source": {
+        "path": "asset.4278de38340b6192d42f48930d3a6c4dc224402e82cddacab17314604dacfdb0",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-current_region-9a942f0b": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "4278de38340b6192d42f48930d3a6c4dc224402e82cddacab17314604dacfdb0.zip",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "5b284371d4e5a7b84d73f777ee9bd450696d5b64867870b59c2117f1eb6cffc1": {
+      "displayName": "S3SingletonCustomResourceStack1 Template",
+      "source": {
+        "path": "S3SingletonCustomResourceStack1.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region-863d406a": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "5b284371d4e5a7b84d73f777ee9bd450696d5b64867870b59c2117f1eb6cffc1.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
