@@ -31,6 +31,7 @@ export class S3SingletonCustomResourceStack extends cdk.Stack {
     const bucketNames = [
       'my-singleton-custom-bucket-123456',
       'my-singleton-custom-bucket-654321',
+      'my-singleton-custom-bucket-xke230',
     ];
 
     bucketNames.forEach((bucketName, idx) => {
